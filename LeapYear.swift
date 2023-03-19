@@ -16,7 +16,7 @@ class Year {
 }
 
 let vanillaLeapYear = Year(calendarYear: 1996)
-print(centuryIsNotALeapYear.isLeapYear)
+print(vanillaLeapYear.isLeapYear)
 // => true
 
 let notALeapYear = Year(calendarYear: 1997)
